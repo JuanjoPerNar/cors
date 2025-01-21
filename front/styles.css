@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    color: #333;
+}
+
+header {
+    background-color: #00B2C8;
+    color: #FBFBFA;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 26px;
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    background-color: #FBFBFA;
+    color: #00B2C8;
+    border: 2px solid ;
+    border-radius: 8px;
+    margin: 30px auto;
+    padding: 14px;
+}
+
+#seccion-buscar {
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    border-radius: 8px;
+    border-color: #00B2C8;
+    font-size: 12px;
+}
+
+button {
+    padding: 8px;
+    background-color: #00B2C8;
+    color: #FBFBFA;
+    border-radius: 8px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3 linear;
+}
+
+button:hover {
+    background-color: #028899;
+}
+
+#seccion-resultados {
+    margin-top: 30px;
+}
+
+#seccion-resultados h2 {
+    text-align: center;
+}
+
+#contenedor-resultados {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+#carta {
+    width: 100%;
+    max-width: 300px;
+    background-color: azure;
+    border: 1px solid #00B2C8;
+    border-radius: 8px;
+}
+
+#carta h2 {
+    background-color: #00B2C8;
+    color: #FBFBFA;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin: 0;
+    padding: 10px;
+}
+
+#carta p {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

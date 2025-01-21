@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Rick y Morty</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>PERSONAJES RICK Y MORTY</h1>
+    </header>
+
+    <main>
+        <section id="seccion-buscar">
+        <form id="formulario-buscar">
+            <label for="nombre">Introduce el nombre del personaje</label>
+            <input type="text" id="nombre-personaje" placeholder="Rick Sanchez" required>
+            <button onclick="buscarPersonaje()">Buscar</button>
+        </form>
+        </section>
+
+        <section id="seccion-resultados">
+            <h2>Resultados</h2>
+            <div id="contenedor-resultados"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
